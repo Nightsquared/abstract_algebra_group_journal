@@ -13077,7 +13077,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a style = "float: right;" href="https://alexscully.com/archive/aa_group_journal/page_2/" class="next">Next Page &raquo;</a>
+<p><a style = "float: right;" href="http://parkerniko.com/archive/aa_group_journal/page_2/" class="next">Next Page &raquo;</a>
 <br>
 <em>Page 1</em></p>
 <h1 id="Introduction:-Group-42">Introduction: Group 42<a class="anchor-link" href="#Introduction:-Group-42">&#182;</a></h1><p>For this page, I'll introduce my group, present its Cayley table, and prove that it is a group.
@@ -13095,7 +13095,7 @@ First, let's import the group table with some python. I'll include this block at
 <span class="c1">#import group data from the uploaded csv</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span> <span class="p">(</span><span class="sa">r</span><span class="s1">&#39;https://alexscully.com/archive/aa_group_journal/group.csv&#39;</span><span class="p">,</span> <span class="n">header</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span> <span class="p">(</span><span class="sa">r</span><span class="s1">&#39;http://parkerniko.com/archive/aa_group_journal/group.csv&#39;</span><span class="p">,</span> <span class="n">header</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span>
 <span class="n">group</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">()</span>
 <span class="c1">#print(group)</span>
 <span class="n">elements</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">group</span><span class="p">[</span><span class="mi">0</span><span class="p">]];</span>
@@ -13109,7 +13109,7 @@ First, let's import the group table with some python. I'll include this block at
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="The-Cayley-Table">The Cayley Table<a class="anchor-link" href="#The-Cayley-Table">&#182;</a></h2><p>I built a <a href="https://alexscully.com/archive/aa_group_journal/page_1/cayleytable.php">small web app</a> to display the Cayley table for this group, with different colors for each element.
+<h2 id="The-Cayley-Table">The Cayley Table<a class="anchor-link" href="#The-Cayley-Table">&#182;</a></h2><p>I built a <a href="http://parkerniko.com/archive/aa_group_journal/page_1/cayleytable.php">small web app</a> to display the Cayley table for this group, with different colors for each element.
 This is the table I was given:
 <img src="groupdefault.png" alt="table 1" width="500"/>
 I also added a feature to allow swapping rows and columns of two elements simultaniously. I tried swapping elements around in such a way that there where 2x2 sections with 2 alternating elements, like so:
@@ -13304,9 +13304,9 @@ The inverse of i is b
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h2><p>It should be clear from the table that $G$ is closed, especially since I only defined colors for the 16 elements in the first row and column. (Python also would've produced a keyerror in the associativity test if $G$ wasn't closed). Obviously $G$ is nonempty, so all conditions for a group have been met.</p>
-<p><a href="https://alexscully.com/archive/aa_group_journal/page_1/page_1.ipynb" download>Download this notebook</a>
+<p><a href="http://parkerniko.com/archive/aa_group_journal/page_1/page_1.ipynb" download>Download this notebook</a>
 <br>
-<a href="https://alexscully.com/archive/aa_group_journal/">Go back to Table of Contents</a></p>
+<a href="http://parkerniko.com/archive/aa_group_journal/">Go back to Table of Contents</a></p>
 
 </div>
 </div>

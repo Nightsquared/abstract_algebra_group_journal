@@ -2,7 +2,7 @@
 #import group data from the uploaded csv
 import pandas as pd
 import numpy as np
-df = pd.read_csv (r'https://alexscully.com/archive/aa_group_journal/orderedgroup.csv', header = None)
+df = pd.read_csv (r'http://parkerniko.com/archive/aa_group_journal/orderedgroup.csv', header = None)
 _group = df.to_numpy()
 
 #define list of elements
